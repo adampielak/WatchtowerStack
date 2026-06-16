@@ -1,8 +1,25 @@
-# 🔭 Watchtower Stack & Watchtower Observatory 🔭
-## "The shrewd one sees the danger and conceals himself"
-![GPLv3](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)
+# Watchtower Stack
 
-Welcome to the Watchtower Stack repository! 🚀 This repository houses configuration files, scripts, and other essential information for the Watchtower Stack, a robust hardware server cluster powered by the Linux-based, free, and open-source hypervisor, Proxmox Virtual Environment.
+![Stack](https://img.shields.io/badge/stack-Wazuh%20%7C%20Security%20Onion%20%7C%20Grafana-blue)
+![Platform](https://img.shields.io/badge/platform-Proxmox%20VE-e57000)
+![License](https://img.shields.io/badge/license-GPLv3-blue)
+
+Configuration files, scripts, and documentation for the Watchtower Stack — a Proxmox-based home/lab SOC platform with full packet capture, endpoint detection, and long-term forensic storage.
+
+> "The shrewd one sees the danger and conceals himself"
+
+## Stack overview
+
+| Component | Role |
+|---|---|
+| Security Onion | Network IDS, full packet capture (Suricata, Zeek, Stenographer) |
+| Wazuh | Endpoint detection, file integrity, custom rules |
+| Grafana | Dashboards and alerting (Discord, Teams, email) |
+| Prometheus | Mission-critical host metrics (CPU, RAM, disk, services) |
+| Dashy | Unified portal |
+| Arpwatch | ARP table monitoring (optional) |
+
+Welcome to the Watchtower Stack repository. This repository houses configuration files, scripts, and other essential information for the Watchtower Stack, a robust hardware server cluster powered by the Linux-based, free, and open-source hypervisor, Proxmox Virtual Environment.
 
 ### Overview
 
